@@ -120,5 +120,5 @@ A previously churned or inactive user who returns and resumes meaningful usage.
 1. Explore event types and frequencies
 2. Finalize activation event(s)
 3. Define exact time windows (X, Y days)
-4. Translate lifecycle logic into SQL
+4. Translate lifecycle logic into python
 
