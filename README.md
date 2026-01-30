@@ -1,5 +1,5 @@
 # SaaS Lifecycle Analytics & Automation Framework
-
+## V
 ## Overview
 This project explores how product and behavioral data can be used to design effective lifecycle campaigns aimed at improving user activation, engagement, and early retention in a SaaS product.
 
@@ -31,6 +31,31 @@ Dataset structure includes:
 - Growth & lifecycle strategy
 
 ## Project Status
-🚧 In progress  
+ In progress  
 Current phase: Data understanding & lifecycle definition
+
+
+## V.1
+## Current Work (Activation Analysis)
+
+The first phase of this project focuses on **user activation**, answering:
+
+- How soon do users perform their first meaningful action after signup?
+- What percentage of users activate within a defined time window?
+- How activation can be defined using behavioral data rather than assumptions
+
+### Activation Definition
+For this project:
+- A user is considered **activated** if they perform their first event within **1 day of signup**
+
+### Analysis Performed
+- Event frequency analysis
+- Events per user distribution
+- Time from signup to first event
+- Filtering invalid (pre-signup) events
+- Activation rate calculation
+- Activation distribution visualization
+
+**Notebook:**  
+`notebooks/01_activation_analysis.ipynb`
 
